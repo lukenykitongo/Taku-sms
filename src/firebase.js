@@ -1,7 +1,5 @@
 import firebase from "firebase";
 
-
-
 const firebaseConfig = {
   apiKey: "AIzaSyBjnAfhNKIT_22twrgEIPKYqH-Pf1kXg3E",
   authDomain: "konohataku-sms.firebaseapp.com",

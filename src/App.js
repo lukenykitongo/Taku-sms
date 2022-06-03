@@ -8,6 +8,7 @@ import Login from "./Components/Login";
 import { auth } from "./firebase";
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
+
   const signOut = () => {
     auth
       .signOut()
